@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manutenção Preventiva | Gear Imports</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        .hero-maintenance {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSce7ULP1eAKLj8EwS85EsO_azAn0Km95mvWA&s');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Header/Navbar -->
+    <header class="bg-black text-white sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <div class="bg-red-600 w-10 h-10 rounded-full flex items-center justify-center mr-3">
+                    <i class="fas fa-cog text-white text-xl"></i>
+                </div>
+                <a href="index.html" class="text-2xl font-bold">
+                    <span class="text-red-600">GEAR</span> <span class="text-white">IMPORTS</span>
+                </a>
+            </div>
+            
+            <nav class="hidden md:flex space-x-8">
+                <a href="gear.html" class="text-white hover:text-red-600 font-medium transition">Início</a>
+                <a href="gear.html#services" class="text-white hover:text-red-600 font-medium transition">Serviços</a>
+                <a href="gear.html#about" class="text-white hover:text-red-600 font-medium transition">Sobre Nós</a>
+                <a href="gear.html#contact" class="text-white hover:text-red-600 font-medium transition">Contato</a>
+            </nav>
+            
+            <div class="hidden md:block">
+                <a href="https://w.app/sgqrvf" class="bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-full font-medium transition">Agendar Serviço</a>
+            </div>
+            
+            <button class="md:hidden text-white text-2xl" id="mobile-menu-button">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden bg-black w-full py-4 px-4" id="mobile-menu">
+            <div class="flex flex-col space-y-4">
+                <a href="gear.html" class="text-white hover:text-red-600 font-medium transition">Voltar</a>
+                <a href="gear.html#services" class="text-white hover:text-red-600 font-medium transition">Serviços</a>
+                <a href="gear.html#about" class="text-white hover:text-red-600 font-medium transition">Sobre Nós</a>
+                <a href="gear.html#contact" class="text-white hover:text-red-600 font-medium transition">Contato</a>
+                <a href="gear.html#contact" class="bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-full font-medium transition text-center">Agendar Serviço</a>s
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-maintenance text-white min-h-[50vh] flex items-center">
+        <div class="container mx-auto px-4 py-16">
+            <div class="max-w-4xl">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">
+                    <span class="text-red-600">Manutenção Preventiva</span> para seu veículo
+                </h1>
+                <p class="text-lg md:text-xl">
+                    Cuidado proativo para evitar falhas e prolongar a vida útil do seu veículo de luxo.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold mb-8 text-center">O que é Manutenção Preventiva?</h2>
+                
+                <div class="prose lg:prose-xl">
+                    <p class="text-lg mb-6">
+                        Manutenção preventiva é um conjunto de ações programadas e sistemáticas realizadas para evitar falhas e prolongar a vida útil de equipamentos e instalações, agindo antes que problemas ocorram.
+                    </p>
+                    
+                    <p class="text-lg mb-8">
+                        Em vez de esperar que algo quebre, a manutenção preventiva age de forma proativa, através de inspeções, revisões e reparos regulares, evitando paradas não programadas e custos elevados com reparos emergenciais.
+                    </p>
+                    
+                    <div class="bg-gray-100 p-6 rounded-xl mb-8">
+                        <h3 class="text-2xl font-bold mb-4 text-red-600">Benefícios da Manutenção Preventiva</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <div class="bg-red-600 rounded-full p-1 mr-3 mt-1">
+                                    <i class="fas fa-check text-white text-xs"></i>
+                                </div>
+                                <span><strong>Evita falhas:</strong> Ao identificar e corrigir problemas em estágios iniciais, impede que eles se agravem e causem paradas não programadas.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-red-600 rounded-full p-1 mr-3 mt-1">
+                                    <i class="fas fa-check text-white text-xs"></i>
+                                </div>
+                                <span><strong>Reduz custos:</strong> Ao evitar quebras e reparos emergenciais, reduz os gastos com peças e serviços.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-red-600 rounded-full p-1 mr-3 mt-1">
+                                    <i class="fas fa-check text-white text-xs"></i>
+                                </div>
+                                <span><strong>Prolonga a vida útil:</strong> Ao manter os equipamentos em bom estado, a manutenção preventiva ajuda a prolongar sua vida útil.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-red-600 rounded-full p-1 mr-3 mt-1">
+                                    <i class="fas fa-check text-white text-xs"></i>
+                                </div>
+                                <span><strong>Melhora a eficiência:</strong> Equipamentos bem conservados operam de forma mais eficiente, aumentando a produtividade.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <h3 class="text-2xl font-bold mb-4 mt-8">Exemplos de Manutenção Preventiva Automotiva</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                        <div class="bg-gray-100 p-4 rounded-lg flex items-start">
+                            <div class="bg-red-600 text-white p-2 rounded-full mr-3">
+                                <i class="fas fa-oil-can"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Lubrificação</h4>
+                                <p class="text-gray-600">Troca periódica de óleo e lubrificação de componentes</p>
+                            </div>
+                        </div>
+                        <div class="bg-gray-100 p-4 rounded-lg flex items-start">
+                            <div class="bg-red-600 text-white p-2 rounded-full mr-3">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Substituição de peças</h4>
+                                <p class="text-gray-600">Troca de componentes conforme vida útil estimada</p>
+                            </div>
+                        </div>
+                        <div class="bg-gray-100 p-4 rounded-lg flex items-start">
+                            <div class="bg-red-600 text-white p-2 rounded-full mr-3">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Inspeções</h4>
+                                <p class="text-gray-600">Verificação visual e instrumental de desgastes</p>
+                            </div>
+                        </div>
+                        <div class="bg-gray-100 p-4 rounded-lg flex items-start">
+                            <div class="bg-red-600 text-white p-2 rounded-full mr-3">
+                                <i class="fas fa-tachometer-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Calibração</h4>
+                                <p class="text-gray-600">Ajuste de instrumentos e sistemas de medição</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="text-center mt-12">
+                        <a href="https://w.app/sgqrvf" class="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-full font-medium transition inline-block">
+                            Agendar Manutenção Preventiva
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
