@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnóstico Avançado | Gear Imports</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        .hero-maintenance {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('data:image/jpeg;base64,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');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Header/Navbar -->
+    <header class="bg-black text-white sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <div class="bg-red-600 w-10 h-10 rounded-full flex items-center justify-center mr-3">
+                    <i class="fas fa-cog text-white text-xl"></i>
+                </div>
+                <a href="gear.html" class="text-2xl font-bold">
+                    <span class="text-red-600">GEAR</span> <span class="text-white">IMPORTS</span>
+                </a>
+            </div>
+            
+            <nav class="hidden md:flex space-x-8">
+                <a href="gear.html" class="text-white hover:text-red-600 font-medium transition">Início</a>
+                <a href="gear.html#services" class="text-white hover:text-red-600 font-medium transition">Serviços</a>
+                <a href="gear.html#about" class="text-white hover:text-red-600 font-medium transition">Sobre Nós</a>
+                <a href="gear.html#contact" class="text-white hover:text-red-600 font-medium transition">Contato</a>
+            </nav>
+            
+            <div class="hidden md:block">
+                <a href="https://w.app/od9r3g" class="bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-full font-medium transition">Agendar Serviço</a>
+            </div>
+            
+            <button class="md:hidden text-white text-2xl" id="mobile-menu-button">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden bg-black w-full py-4 px-4" id="mobile-menu">
+            <div class="flex flex-col space-y-4">
+                <a href="gear.html" class="text-white hover:text-red-600 font-medium transition">Voltar</a>
+                <a href="gear.html#services" class="text-white hover:text-red-600 font-medium transition">Serviços</a>
+                <a href="gear.html#about" class="text-white hover:text-red-600 font-medium transition">Sobre Nós</a>
+                <a href="gear.html#contact" class="text-white hover:text-red-600 font-medium transition">Contato</a>
+                <a href="gear.html#contact" class="bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-full font-medium transition text-center">Agendar Serviço</a>s
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-maintenance text-white min-h-[50vh] flex items-center">
+        <div class="container mx-auto px-4 py-16">
+            <div class="max-w-4xl">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">
+                    <span class="text-red-600">Diagnóstico Avançado</span> Automotivo
+                </h1>
+                <p class="text-lg md:text-xl">
+                    Tecnologia de ponta para identificar e solucionar problemas complexos em seu veículo.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold mb-8 text-center">Diagnóstico Avançado Automotivo</h2>
+                
+                <div class="prose lg:prose-xl">
+                    <div class="bg-gray-100 p-6 rounded-xl mb-8">
+                        <p class="text-lg mb-6">
+                            O diagnóstico avançado automotivo envolve a utilização de ferramentas e técnicas especializadas para identificar problemas em veículos, indo além do simples escaneamento de códigos de falha. Inclui a análise de sinais elétricos e eletrônicos, a interpretação de dados do osciloscópio e a aplicação de conhecimentos técnicos para solucionar falhas complexas.
+                        </p>
+                        
+                        <h3 class="text-2xl font-bold mb-4 text-red-600">Etapas do Diagnóstico Avançado</h3>
+                        <ol class="space-y-6 list-decimal pl-6">
+                            <li class="pl-2">
+                                <strong>Coleta de Informações:</strong>
+                                <ul class="mt-2 space-y-2 list-disc pl-6">
+                                    <li><strong>Diagnóstico verbal:</strong> O profissional conversa com o cliente para entender os sintomas e o histórico do problema.</li>
+                                    <li><strong>Inspeção visual:</strong> O técnico observa o veículo em busca de sinais visíveis de falhas, como vazamentos ou componentes danificados.</li>
+                                </ul>
+                            </li>
+                            <li class="pl-2">
+                                <strong>Uso de Ferramentas:</strong>
+                                <ul class="mt-2 space-y-2 list-disc pl-6">
+                                    <li><strong>Scanner automotivo:</strong> Ferramenta essencial para ler códigos de falha, parâmetros do veículo e dados de sensores. Permite identificar problemas na injeção eletrônica, sistema de freios ABS, airbag, entre outros.</li>
+                                    <li><strong>Osciloscópio:</strong> Ferramenta que visualiza sinais elétricos e suas variações ao longo do tempo. Essencial para analisar a qualidade do sinal de sensores e atuadores, identificar falhas em sistemas eletrônicos e diagnosticar problemas de sincronismo.</li>
+                                </ul>
+                            </li>
+                            <li class="pl-2">
+                                <strong>Interpretação e Análise:</strong>
+                                <ul class="mt-2 space-y-2 list-disc pl-6">
+                                    <li><strong>Análise de dados do scanner:</strong> O técnico interpreta os códigos de erro e os parâmetros do veículo para identificar a causa raiz do problema.</li>
+                                    <li><strong>Análise de sinais do osciloscópio:</strong> O técnico analisa os sinais elétricos, comparando com padrões e valores esperados, para identificar problemas específicos.</li>
+                                </ul>
+                            </li>
+                            <li class="pl-2">
+                                <strong>Solução do Problema:</strong>
+                                <ul class="mt-2 space-y-2 list-disc pl-6">
+                                    <li><strong>Reparo ou substituição de componentes:</strong> Com base no diagnóstico, o técnico realiza os reparos necessários ou substitui componentes defeituosos.</li>
+                                    <li><strong>Teste final:</strong> Após o reparo, o técnico realiza testes para garantir que o problema foi resolvido e que o veículo está funcionando corretamente.</li>
+                                </ul>
+                            </li>
+                        </ol>
+                        
+                        <h3 class="text-2xl font-bold mt-8 mb-4 text-red-600">Importância do Diagnóstico Avançado</h3>
+                        <div class="grid md:grid-cols-3 gap-4">
+                            <div class="bg-white p-4 rounded-lg shadow">
+                                <div class="text-red-600 text-2xl mb-2">
+                                    <i class="fas fa-bullseye"></i>
+                                </div>
+                                <h4 class="font-bold">Precisão</h4>
+                                <p class="text-sm">Identifica a causa exata do problema, evitando substituições desnecessárias e custos adicionais.</p>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg shadow">
+                                <div class="text-red-600 text-2xl mb-2">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <h4 class="font-bold">Eficiência</h4>
+                                <p class="text-sm">Reduz o tempo de diagnóstico e reparo, otimizando o tempo do profissional e do cliente.</p>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg shadow">
+                                <div class="text-red-600 text-2xl mb-2">
+                                    <i class="fas fa-award"></i>
+                                </div>
+                                <h4 class="font-bold">Qualidade</h4>
+                                <p class="text-sm">Garante um serviço de reparação mais preciso e confiável, aumentando a satisfação do cliente.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="text-center mt-12">
+                        <a href="index.html#contact" class="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-full font-medium transition inline-block">
+                            Agendar Diagnóstico
+                        </a>
+                    </div>
