@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reparos Especializados | Gear Imports</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        .hero-maintenance {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb52cK3-dLgqzBTLO8WHgYKNuI6hRInxbjaA&s');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Header/Navbar -->
+    <header class="bg-black text-white sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <div class="bg-red-600 w-10 h-10 rounded-full flex items-center justify-center mr-3">
+                    <i class="fas fa-cog text-white text-xl"></i>
+                </div>
+                <a href="index.html" class="text-2xl font-bold">
+                    <span class="text-red-600">GEAR</span> <span class="text-white">IMPORTS</span>
+                </a>
+            </div>
+            
+            <nav class="hidden md:flex space-x-8">
+                <a href="gear.html" class="text-white hover:text-red-600 font-medium transition">Início</a>
+                <a href="gear.html#services" class="text-white hover:text-red-600 font-medium transition">Serviços</a>
+                <a href="gear.html#about" class="text-white hover:text-red-600 font-medium transition">Sobre Nós</a>
+                <a href="gear.html#contact" class="text-white hover:text-red-600 font-medium transition">Contato</a>
+            </nav>
+            
+            <div class="hidden md:block">
+                <a href="https://w.app/od9r3g" class="bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-full font-medium transition">Agendar Serviço</a>
+            </div>
+            
+            <button class="md:hidden text-white text-2xl" id="mobile-menu-button">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden bg-black w-full py-4 px-4" id="mobile-menu">
+            <div class="flex flex-col space-y-4">
+                <a href="gear.html" class="text-white hover:text-red-600 font-medium transition">Voltar</a>
+                <a href="gear.html#services" class="text-white hover:text-red-600 font-medium transition">Serviços</a>
+                <a href="gear.html#about" class="text-white hover:text-red-600 font-medium transition">Sobre Nós</a>
+                <a href="gear.html#contact" class="text-white hover:text-red-600 font-medium transition">Contato</a>
+                <a href="gear.html#contact" class="bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-full font-medium transition text-center">Agendar Serviço</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-maintenance text-white min-h-[50vh] flex items-center">
+        <div class="container mx-auto px-4 py-16">
+            <div class="max-w-4xl">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">
+                    <span class="text-red-600">Reparos Especializados</span> para seu veículo
+                </h1>
+                <p class="text-lg md:text-xl">
+                    Soluções técnicas avançadas para problemas complexos em seu veículo de luxo.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold mb-8 text-center">Principais Reparos Especializados</h2>
+                
+                <div class="prose lg:prose-xl">
+                    <div class="bg-gray-100 p-6 rounded-xl mb-8">
+                        <h3 class="text-2xl font-bold mb-4 text-red-600">Componentes que exigem atenção especial</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <div class="bg-red-600 rounded-full p-1 mr-3 mt-1">
+                                    <i class="fas fa-bolt text-white text-xs"></i>
+                                </div>
+                                <span><strong>Velas de ignição:</strong> A substituição é necessária quando o carro apresenta dificuldade na partida, consumo excessivo de combustível ou marcha lenta irregular.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-red-600 rounded-full p-1 mr-3 mt-1">
+                                    <i class="fas fa-cog text-white text-xs"></i>
+                                </div>
+                                <span><strong>Correias do motor:</strong> As correias, especialmente a dentada, devem ser revisadas regularmente, pois seu rompimento pode causar danos graves ao motor.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-red-600 rounded-full p-1 mr-3 mt-1">
+                                    <i class="fas fa-car text-white text-xs"></i>
+                                </div>
+                                <span><strong>Amortecedores e suspensão:</strong> A verificação e substituição desses componentes são importantes para o conforto e segurança na direção.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-red-600 rounded-full p-1 mr-3 mt-1">
+                                    <i class="fas fa-exchange-alt text-white text-xs"></i>
+                                </div>
+                                <span><strong>Embreagem:</strong> O desgaste da embreagem pode causar dificuldades na troca de marchas.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-red-600 rounded-full p-1 mr-3 mt-1">
+                                    <i class="fas fa-cogs text-white text-xs"></i>
+                                </div>
+                                <span><strong>Transmissão:</strong> Problemas na transmissão podem causar ruídos, dificuldades na troca de marchas e até travamento da caixa de câmbio.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-red-600 rounded-full p-1 mr-3 mt-1">
+                                    <i class="fas fa-engine text-white text-xs"></i>
+                                </div>
+                                <span><strong>Motor:</strong> O motor é um componente complexo e caro, e sua substituição é incomum se a manutenção preventiva for realizada adequadamente.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <p class="text-lg mb-8">
+                        É importante realizar a manutenção preventiva regularmente e procurar um mecânico de confiança caso note qualquer problema em seu veículo.
+                    </p>
+                    <div class="text-center mt-12">
+                        <a href="https://w.app/od9r3g" class="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-full font-medium transition inline-block">
+                            Agendar Reparo Especializado
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
